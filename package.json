@@ -1,0 +1,13 @@
+{
+  "name": "ip-info",
+  "version": "1.0.0",
+  "description": "A curl-able what's-my-IP endpoint: an AWS Lambda behind CloudFront, with a cost circuit breaker.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node local/server.mjs",
+    "test": "node --test"
+  }
+}
